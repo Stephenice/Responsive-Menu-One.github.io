@@ -51,14 +51,13 @@ align-items: center;
 
 .logo{
 flex: 1 1 30%;
-border: 1px solid red;
 
 }
 
 .navbar{
     flex: 2 1 60%;
     text-align: right;
-    border: 1px solid red;
+ 
 }
 
 
@@ -107,4 +106,46 @@ color:  var(--primary-color);
   }
 
 
-  
+  /* -------banner------ */
+  .banner{
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      width: 400px;
+      height: auto;
+      color: #fff;
+      transform: translateX(-20%)  ;
+      -webkit-transform: translateX(-20%)  ;
+      -moz-transform: translateX(-20%)  ;
+      -ms-transform: translateX(-20%)  ;
+      -o-transform: translateX(-20%)  ;
+}
+
+  .content{
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+      border-radius: 5px  ;
+      -webkit-border-radius: 5px  ;
+      -moz-border-radius: 5px  ;
+      -ms-border-radius: 5px  ;
+      -o-border-radius: 5px  ;
+      /* text-align: center; */
+}
+
+.content img{
+    /* border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; */
+    /* margin-top: -50px; */
+    shape-outside: ellipse(50px 50px at 50% 50%);
+  clip-path: ellipse(50px 50px at 50% 50%);
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 15px;
+   
+}
+
