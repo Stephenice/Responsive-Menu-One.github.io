@@ -106,6 +106,10 @@ color:  var(--primary-color);
   }
 
 
+  .bar{
+display: none;
+  }
+
   /* -------banner------ */
   .banner{
       position: absolute;
